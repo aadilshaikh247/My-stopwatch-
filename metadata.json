@@ -1,0 +1,5 @@
+{
+  "name": "Pro Stopwatch",
+  "description": "A high-precision, dark-mode stopwatch with lap functionality and haptic feedback.",
+  "requestFramePermissions": []
+}
