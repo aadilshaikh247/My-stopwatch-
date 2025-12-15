@@ -6,8 +6,8 @@ export const formatTime = (time: number) => {
     return { min, sec, ms };
 };
 
-export const vibratePhone = () => {
+export const vibratePhone = (pattern: number | number[] = 50) => {
     if (typeof navigator !== 'undefined' && navigator.vibrate) {
-        navigator.vibrate(50);
+        navigator.vibrate(pattern);
     }
 };
