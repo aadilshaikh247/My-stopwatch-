@@ -1,5 +1,7 @@
 {
-  "name": "Pro Stopwatch",
-  "description": "A high-precision, dark-mode stopwatch with lap functionality and haptic feedback.",
-  "requestFramePermissions": []
+  "name": "Ultimate Pro Stopwatch",
+  "description": "A high-precision stopwatch with goal alerts and lap analysis.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
 }
